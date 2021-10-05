@@ -12,7 +12,7 @@ public class GRpcWithIdsApplication implements ApplicationRunner {
 
 	private static final int PORT = 3030;
 	private static final Server SERVER = ServerBuilder.forPort(PORT)
-			.addService(new SampleServiceImpl())
+			.addService(new IdGenerator())
 			.build();
 
 	public static void main(String[] args) {

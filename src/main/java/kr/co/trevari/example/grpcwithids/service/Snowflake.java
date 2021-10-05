@@ -1,6 +1,8 @@
 package kr.co.trevari.example.grpcwithids.service;
 
 
+import org.springframework.stereotype.Service;
+
 import java.net.NetworkInterface;
 import java.security.SecureRandom;
 import java.time.Instant;
